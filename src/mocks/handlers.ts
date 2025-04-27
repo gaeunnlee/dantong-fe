@@ -1,6 +1,6 @@
 import { http, HttpResponse } from 'msw';
-import { postListResponse } from './dummy/postListResponse';
-import { appliedEventsResponse } from './dummy/appliedEventsResponse';
+import { postListResponse } from './dummy/posts/postListResponse';
+import { appliedEventsResponse } from './dummy/posts/appliedEventsResponse';
 import { dkuLoginResponse } from './dummy/sign-up/dkuLoginResponse';
 import { signUpRequest } from './dummy/sign-up/signUpRequest';
 import { SignUpInfo } from '@/api/sign-up/types';
