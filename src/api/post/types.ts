@@ -41,8 +41,8 @@ export type PostDetailResponse = {
   category: 'EVENT' | 'NOTICE' | 'PARTNERSHIP';
   postFileResponse: PostFileResponse[];
   userResponse: UserInfoResponse;
-  surveySummaryResponse: FormSummaryResponse;
-  surveyId: number;
+  surveySummaryResponse?: FormSummaryResponse;
+  surveyId?: number;
 };
 
 export type PostDeleteResponse = {

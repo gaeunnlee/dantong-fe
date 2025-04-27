@@ -3,6 +3,7 @@
 .env
 dantong-fe.pem
 /build
+/src/mocks/dummy
 
 # dependencies
 /node_modules

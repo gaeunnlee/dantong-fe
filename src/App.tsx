@@ -7,7 +7,7 @@ import { Toaster } from 'react-hot-toast';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      retry: 3,
+      retry: 1,
       refetchOnWindowFocus: false,
       throwOnError: true,
     },

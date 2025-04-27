@@ -75,7 +75,7 @@ export const PostPage = () => {
                 content="신청"
                 size="full"
                 onClick={() => {
-                  navigate(`/form/${post!.surveySummaryResponse.surveyId}`);
+                  navigate(`/form/${post!.surveySummaryResponse!.surveyId}`);
                 }}
               />
             </div>
